@@ -10,162 +10,256 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Learn-And-Compate</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown link
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </li>
+<body class="body">
+  
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bolder;">Learn-And-Compate</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homepage.html" style="font-weight: 200;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="course.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tutorials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WorkWithUs</a>
+              </li>
+             
+              <li>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <li class="nav-item" >
+                  <div class="buttons-container">
+                    <button class="signin-button">Sign In</button>
+                    <button class="signup-button">Sign Up</button>
+                </div>
+                </li>
+               
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="second-nav">
+        <div class="second-nav-container">
+          <div class="image-container">
+            <img src="images/icons8-home-24.png" alt="Home Icon" class="src">
+          </div>
+          <ul class="second-nav-items">
+            <li class="listitems">HTML</li>
+            <li class="listitems">CSS</li>
+            <li class="listitems">JS</li>
+            <li class="listitems">C</li>
+            <li class="listitems">C++</li>
+            <li class="listitems">PYTHON</li>
+            <li class="listitems">java</li>
           </ul>
         </div>
-      </div>
-    </nav>
-    <nav class="second-nav">
-      <div class="second-nav-container">
-        <div class="image-container">
-          <img src="images/icons8-home-24.png" alt="Home Icon" class="src">
-        </div>
-        <ul class="second-nav-items">
-          <li class="listitems">HTML</li>
-          <li class="listitems">CSS</li>
-          <li class="listitems">JS</li>
-          <li class="listitems">C</li>
-          <li class="listitems">C++</li>
-          <li class="listitems">PYTHON</li>
-          <li class="listitems">java</li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <div class="main-container">
-      <div class="small-container-1">
-        <div class="main-info-1">
-          <h2 class="main-heading" class="text-3xl font-semibold text-gray-800 md:text-4xl dark:text-white">Welcome to <span
-              class="text-purple-700 dark:text-purple-600">Learn And Compete</span></h2>
-          <h4 class="main-subheading" class="text-xl font-semibold text-gray-800 md:text-2xl dark:text-white">Learn <span
-              class="text-purple-700 dark:text-purple-600">DSA</span><span class="typed-cursor"
-              aria-hidden="true"></span></h4>
-          <p class="main-paragraph" class="mt-2 text-sm text-gray-500 md:text-base dark:text-gray-400">Confused on which course to take? I have
-            got you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my
-            attempt
-            to teach basics and those coding techniques to people in short time which took me ages to learn.</p>
-          <div class="flex justify-center lg:justify-start mt-6"><button
-              class="px-3 py-2 lg:px-4 lg:py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:text-white hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-600 dark:hover:bg-gray-300"
-              fdprocessedid="tua2bl">Free Courses</button><button
-              class="px-3 py-2 mx-4 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
-              fdprocessedid="v7nj5g">Explore Blog</button></div>
-        </div>
-        <div class="main-img-container">
-          <img src="images/Screenshot 2023-07-25 204719.png" alt="" class="main-image">
-        </div>
-      </div>
-    </div>
-
-  </main>
-  <footer style="background-color: whitesmoke;">
-    <div class="container">
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="small-container-1">
+          <div class="main-info-1">
+            <h2 class="main-heading" class="text-3xl font-semibold text-gray-800 md:text-4xl dark:text-white">Welcome to
+              <span class="text-purple-700 dark:text-purple-600" ;">Learn And Compete</span>
+            </h2>
+            <h4 class="main-subheading" class="text-xl font-semibold text-gray-800 md:text-2xl dark:text-white">Learn
+              <span class="text-purple-700 dark:text-purple-600">DSA</span><span class="typed-cursor"
+                aria-hidden="true"></span>
+            </h4>
+            <p class="main-paragraph" class="mt-2 text-sm text-gray-500 md:text-base dark:text-gray-400">Confused on
+              which
+              course to take? I have
+              got you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my
+              attempt
+              to teach basics and those coding techniques to people in short time which took me ages to learn.</p>
+            <div class="flex justify-center lg:justify-start mt-6">
+             <a href="course.html">  <button
+               
+              class="main-buttons">Free Courses </button></a>
+                 <button
+               class="main-buttons">Explore Blog</button></div>
           </div>
-
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
+          <div class="main-img-container">
+            <img src="images/Screenshot 2023-07-25 204719.png" alt="" class="main-image">
           </div>
+        </div>
 
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-          </div>
+        <div class="small-container-2">
+          <h2 class="recommendedcourses">Recommended Courses</h2>
+          <div class="coursesrecommended">
+            <div class="courses">
 
-          <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address"
-                  fdprocessedid="k5h1kq">
-                <button class="btn btn-primary" type="button" fdprocessedid="d62a2">Subscribe</button>
+              <a href=""><img src="images/python.png" alt="" class="pythonimg"></a>
+              <div class="subcourses">
+
+                <h7>FreeCourse</h7>
+                <p>
+                <h5>Python Tutorials - 100 Days of Code</h5>
+                </p>
+                <p>
+                  <h7>Python is one of the most demanded programming languages in the job market. Surprisingly, it is
+                    equally
+                    easy to learn and master Python. Let's commit our 100 days of code to python!</h7>
+                </p>
+                <button class="startwatching">start-watching</button>
               </div>
-            </form>
+            </div>
+            <div class="courses">
+
+              <a href=""><img src="images/cpp.png" alt="" class="pythonimg"></a>
+              <div class="subcourses">
+
+                <h7>FreeCourse</h7>
+                <p>
+                <h5>C++ Tutorials - 60 Days of Code</h5>
+                </p>
+                <p>
+                  <h7>Python is one of the most demanded programming languages in the job market. Surprisingly, it is
+                    equally
+                    easy to learn and master Python. Let's commit our 100 days of code to python!</h7>
+                </p>
+                <button class="startwatching">start-watching</button>
+              </div>
+            </div>
+            <div class="courses">
+
+              <a href=""><img src="images/java.png" alt="" class="pythonimg"></a>
+              <div class="subcourses">
+
+                <h7>FreeCourse</h7>
+                <p>
+                <h5>Java Tutorials - 120 Days of Code</h5>
+                </p>
+                <p>
+                  <h7>Python is one of the most demanded programming languages in the job market. Surprisingly, it is
+                    equally
+                    easy to learn and master Python. Let's commit our 100 days of code to python!</h7>
+                </p>
+                <button class="startwatching">start-watching</button>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>© 2023 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#twitter"></use>
-                </svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#instagram"></use>
-                </svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#facebook"></use>
-                </svg></a></li>
-          </ul>
+        <div class="small-container-3">
+          <h2 class="recommendedcourses-1">Testimonials</h2>
+          <div class="testimonials">
+            <div class="testimonial-container">
+              <div class="testimonial">
+                  <img src="images/Screenshot 2023-07-27 221218.png" alt="John Doe" class="testimonial-img">
+                  <p class="testimonial-text">
+                      "Learning HTML and CSS was a game-changer for me! As a beginner in web development, I was intimidated by coding, but the structured approach and easy-to-understand syntax of HTML and CSS made everything so much simpler. Now, I can create stunning websites and bring my design ideas to life. Thanks to these foundational languages, I'm on my way to becoming a proficient web developer!"
+                  </p>
+                  <p class="testimonial-author">- John Doe, Web Developer Enthusiast</p>
+              </div>
+      
+              <div class="testimonial">
+                  <img src="images/Screenshot 2023-07-27 221253.png" alt="Jane Smith" class="testimonial-img">
+                  <p class="testimonial-text">
+                      "HTML and CSS are the building blocks of the web, and learning them has been an essential part of my career growth. The knowledge of HTML helped me create the structure and content of websites, while CSS allowed me to style them beautifully. The combination of these two languages opened up numerous opportunities for me in the web development industry. I highly recommend mastering HTML and CSS for anyone looking to pursue a successful career in web development!"
+                  </p>
+                  <p class="testimonial-author">- Jane Smith, Front-end Developer</p>
+              </div>
         </div>
-      </footer>
-    </div>
-  </footer>
+      </div>
+
+    </main>
+    <footer style="background-color: whitesmoke;">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address"
+                    fdprocessedid="k5h1kq">
+                  <button class="btn btn-primary" type="button" fdprocessedid="d62a2">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use>
+                  </svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use>
+                  </svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+  
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
