@@ -1,84 +1,334 @@
-header
-{
+body {
+    background-color: rgb(225, 235, 245);
+}
+
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
-  
 }
-.second-nav-container
-{
-    padding-top: 4px;
+
+.second-nav-container {
     display: flex;
 }
-.image-container
-{
+
+.image-container {
     position: relative;
     top: 14px;
 }
-.src
-{
+
+.src {
     align-items: center;
     width: 24px;
     height: 24px;
 }
-.second-nav
-{
+
+.second-nav {
     width: 100%;
-    height: 63px;
-  background-color: antiquewhite;
-  border-radius: 10px;
-  
-  
+    height: 50px;
+    background-color: rgb(195, 220, 235);
 }
-.second-nav-items
-{ 
-     position: relative;
+
+.second-nav-items {
+    position: relative;
     display: flex;
-      justify-content: center;
-      left: 350px;
+    justify-content: center;
+    left: 350px;
 }
-.listitems
-{
+
+.listitems {
+    color: blueviolet;
+    font-weight: bold;
     list-style: none;
     text-decoration: none;
-   padding: 15px;
+    padding: 15px;
 }
-.main-container
-{
-    
-    margin: 1px;
+
+.listitems:hover {
+    color: orangered;
 }
-/* main */
-main
-{
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-button,
+.signup-button {
+    position: relative;
+    left: 165px;
+    padding-right: 1px;
+    width: 67px;
+    height: 31px;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.signin-button {
+    background-color: #007BFF;
+    /* Blue color */
+}
+
+.signup-button {
+    background-color: #28A745;
+    /* Green color */
+}
+
+.signin-button:hover,
+.signup-button:hover {
+    opacity: 0.9;
+    background-color: orange;
+}
+
+.signin-button:focus,
+.signup-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.3);
+    /* Light blue border on focus */
+}
+
+main {
     margin-top: 120px;
     padding: 42px;
 }
-.small-container-1
-{
+
+.small-container-1 {
+
     display: flex;
 }
-.main-img-container
-{
-    
+
+.main-buttons {
+    width: 155px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: blueviolet;
+
+}
+
+.main-buttons:hover {
+    background-color: orangered;
+}
+
+.main-img-container {
+    border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
-.main-info-1
-{
-    box-shadow: 5px 5px 5px 5 rgb(127, 127, 242);
-     background-color:antiquewhite;
-     padding: 28px;
+
+.main-image {
+    border-radius: 10px;
 }
-/* mainend */
+
+.main-info-1 {
+    box-shadow: 5px 5px 5px 5px rgb(127, 127, 242);
+    border-radius: 10px;
+    background-color: #FDF3E3;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.small-container-2 {
+    margin-top: 37px;
+}
+
+.recommendedcourses {
+    text-align: center;
+}
+
+.coursesrecommended {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.courses {
+    margin-left: 49px;
+    margin-right: 49px;
+    border-radius: 10px;
+    background-color: rgb(229, 190, 229);
+    display: inline-block;
+    box-sizing: content-box;
+    width: 350px;
+    height: 500px;
+}
+
+.subcourses {
+    box-sizing: content-box;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    padding-right: 7px;
+    padding-top: 13px;
+    padding-left: 14px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pythonimg {
+    display: block;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.startwatching {
+
+    border-radius: 15px;
+
+    border-color: orangered;
+    background-color: orangered;
+}
+
+.startwatching:hover {
+    border-color: #007BFF;
+    background-color: #007BFF;
+}
+
+.small-container-3 {
+    margin-top: 37px;
+}
+
+.recommendedcourses-1 {
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    width: 100vw;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.testimonial {
+    margin-left: 1px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    color: #666;
+}
+
 footer {
-  
-   padding-top: 10px;
+    padding-top: 10px;
     border-radius: 15px;
 }
-.container{
+
+.container {
     background-color: azure;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+/* courses */
+/* Styles for the card grid container */
+ .heading{
+    text-align: center;
+ }
+  .box-container-1{
+   
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+     margin: 40px;
+    position: relative; /* Set position to relative to position tutor and thumb images */
+    width: 300px; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Add a hover effect */
+  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Styles for the tutor image and info */
+  .tutor {
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tutor img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the video thumbnail and span */
+  .thumb {
+    display: flex;
+    align-items: center;
+    margin-top: 30%; /* Adjust the margin-top to create space for the tutor image */
+    margin-bottom: 15px;
+  }
+  
+  /* Adjust the image height */
+  .thumb img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Additional styles for the title and view playlist link */
+  .title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .inline-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .inline-btn:hover {
+    background-color: #0056b3;
+  }
+  
